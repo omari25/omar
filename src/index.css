@@ -64,14 +64,14 @@ html {
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: #00ebc4;
+    background-color: #00b395;
     bottom: 0;
     left: 0;
     transition: 0.3s;
 }
 
 .navbar-div-two a:hover{
-    color: #00ebc4;
+    color: #00b395;
     cursor: pointer;
 }
 
@@ -104,7 +104,6 @@ html {
 
 .home-div{
     margin-top: 80px;
-    height: 500px;
     background-color: #12002e;
     padding: 4vw 6vw;
     display: flex;
@@ -117,39 +116,82 @@ html {
     width: 40%;
 }
 
+.my-image-div img{
+    width: 100%;
+}
+
 .home-right-div{
     width: 56%;
 }
 
 .introduction-p{
     margin-bottom: 16px;
+    
 }
 
 .home-right-div h1{
-    font-size: 48px;
+    font-size: 56px;
     letter-spacing: 2px;
     margin-bottom: 16px;
 }
 
+.colored-name{
+    color: #00b395;
+}
+
 .my-description-p{
-    margin-bottom: 16px;
-}
-
-.home-div button{
-    border: 1px solid #00ebc4;
-    background: transparent;
-    border-radius: 4px;
-}
-
-.home-div button a{
-    display: inline-block;
-    padding: 12px 24px;
-    text-decoration: none;
+    margin-bottom: 36px;
     font-size: 18px;
-    color: #00ebc4;
 }
 
+.about-me-links{
+    display: flex;
+    align-items: center;
+}
 
+.about-me-btn{
+    padding: 12px 48px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #00b395;
+    border: 1px solid #00b395;
+    position: relative;
+    background: none;
+    z-index: 1;
+}
+.about-me-btn:hover{
+    color: #12002e;
+}
+.about-me-btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00b395;
+    transform: scaleX(0);
+    transition: 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    z-index: -1;
+}
+
+.about-me-btn:hover::before{
+    transform: scaleX(1);
+}
+
+.home-div-icons{
+    margin-left: 36px;
+}
+
+.home-div-icons a{
+    font-size: 24px;
+    color: #00b395;
+    margin-left: 12px;
+    text-decoration: none;
+}
 
 
 
