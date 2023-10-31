@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./NavBar";
 import Home from "./Home";
+import Contact from "./Contact";
 
 const App = () => {
 
@@ -8,6 +9,7 @@ const App = () => {
     <>
       <NavBar />
       <Home/>
+      <Contact/>
     </>
   );
 };
