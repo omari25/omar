@@ -21,8 +21,8 @@ function NavBar() {
           <a href="#home" onClick={closeMenu}>Home</a>
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#services" onClick={closeMenu}>Services</a>
-          <a href="#services" onClick={closeMenu}>Portfolio</a>
-          <a href="#services" onClick={closeMenu}>Blog</a>
+          <a href="#portfolio" onClick={closeMenu}>Portfolio</a>
+          <a href="#blog" onClick={closeMenu}>Blog</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </div>
       </nav>

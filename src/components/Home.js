@@ -3,7 +3,7 @@ import myImage from "./images/ytedf.jpg"
 
 function Home() {
   return (
-    <div className='home-div' id='#home'>
+    <div className='home-div' id='home'>
         <div className='my-image-div'>
           {/* <img src={myImage} alt="" /> */}
         </div>
