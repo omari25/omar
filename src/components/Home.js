@@ -1,11 +1,11 @@
 import React from 'react';
-import myImage from "./images/ytedf.jpg"
+import myImage from "./images/undraw_programming_re_kg9v.svg"
 
 function Home() {
   return (
     <div className='home-div' id='home'>
         <div className='my-image-div'>
-          {/* <img src={myImage} alt="" /> */}
+          <img src={myImage} alt="My pic" />
         </div>
         <div className='home-right-div'>
           <p className='introduction-p'>INTRODUCTION</p>

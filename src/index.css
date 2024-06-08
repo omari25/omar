@@ -103,7 +103,7 @@ html {
 #the-bold-h1{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    font-size: 56px;
+    font-size: 48px;
 }
 
 .colored-name{
@@ -115,10 +115,11 @@ html {
 
 .home-div{
     margin-top: 80px;
-    background-color: #100127;
+    background-color: #1f014d;
     padding: 4vw 6vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: white;
     
 }
@@ -142,7 +143,7 @@ html {
 
 .home-right-div h1{
     font-family: 'Poppins', sans-serif;
-    font-size: 56px;
+    font-size: 48px;
     letter-spacing: 2px;
     margin-bottom: 16px;
 }
@@ -213,6 +214,7 @@ html {
 .blogs-div{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
 }
 
 a.one-blog{
@@ -287,6 +289,47 @@ a.one-blog:hover .blog-text-div-p1{
     padding: 16px 20px;
 }
 
+.contact-form{
+    width: 48%;
+}
+
+#form-inputs-top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#form-inputs-top input{
+    width: 48%;
+    border: 1px solid #00b395;
+    background-color: transparent;
+    height: 48px;
+    border-radius: 8px;
+    padding: 0 16px;
+    color: white;
+}
+
+#form-inputs-top input:focus, #form-textarea:focus{
+    outline: none;
+}
+
+#form-textarea{
+    display: block;
+    width: 100%;
+    border: 1px solid #00b395;
+    background-color: transparent;
+    height: 160px;
+    border-radius: 8px;
+    padding: 16px;
+    color: white;
+    margin: 24px 0;
+    resize: none;
+}
+
+#submit-btn, #submit-btn::before{
+    border-radius: 8px;
+}
+
 .embeded-map{
     margin-top: 48px;
     display: flex;
@@ -311,7 +354,14 @@ footer{
 
 
 
-
+@media (max-width: 960px) {
+    .home-div{
+        flex-direction: column;
+    }
+    .my-image-div, .home-right-div{
+        width: 80%;
+    }
+}
 
 
 
@@ -370,6 +420,10 @@ footer{
 
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-11px) rotate(-135deg);
+    }
+
+    .home-right-div h1{
+        font-size: 36px;
     }
 }
 

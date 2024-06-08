@@ -4,6 +4,7 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Blog from "./Blog";
+import About from "./About";
 
 const App = () => {
 
@@ -11,6 +12,7 @@ const App = () => {
     <>
       <NavBar />
       <Home/>
+      <About/>
       <Blog />
       <Contact/>
       <Footer/>

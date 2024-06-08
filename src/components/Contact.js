@@ -29,8 +29,15 @@ function Contact() {
             </div>
           </div>
         </div>
-        <div>
-
+        <div className='contact-form'>
+            <form action="">
+              <div id='form-inputs-top'>
+                <input type="text" placeholder='Name'/>
+                <input type="text" placeholder='Email'/>
+              </div>
+              <textarea name="" id="form-textarea" placeholder='Message'></textarea>
+              <button type="submit" className='about-me-btn' id='submit-btn'>Send Message</button>
+            </form>
         </div>
       </div>
       <div class="embeded-map">
