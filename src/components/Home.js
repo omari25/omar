@@ -13,7 +13,7 @@ function Home() {
           <h1>A <span className='colored-name'>Software Engineer</span></h1>
           <p className='my-description-p'>I am an accomplished full-stack software developer with expertise in both frontend and backend technologies. I excel in designing intuitive user interfaces and crafting robust, efficient server-side solutions. My skills include programming languages like JavaScript, React, Python, and Ruby and a keen understanding of various frameworks and databases.</p>
           <div className='about-me-links'>
-            <a href="" className='about-me-btn'>About Me</a>
+            <a href="#about" className='about-me-btn'>About Me</a>
             <div className='home-div-icons'>
               <a href="https://www.facebook.com/omar.mahat.75" target='__blank'><i class="fa-brands fa-facebook-f"></i></a>
               <a href="https://twitter.com/Omar_Mahat0" target='__blank'><i class="fa-brands fa-x-twitter"></i></a>

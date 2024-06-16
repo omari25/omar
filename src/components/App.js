@@ -5,6 +5,8 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Blog from "./Blog";
 import About from "./About";
+import Skills from "./Skills";
+import Resume from "./Resume";
 
 const App = () => {
 
@@ -13,6 +15,8 @@ const App = () => {
       <NavBar />
       <Home/>
       <About/>
+      <Resume/>
+      <Skills/>
       <Blog />
       <Contact/>
       <Footer/>
