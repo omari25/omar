@@ -343,7 +343,7 @@ html {
 .my-blog{
     background-color: #19033d;
     color: white;
-    padding: 5vw 10vw;
+    padding: 5vw 8vw;
 }
 
 .blogs-div{
@@ -508,6 +508,22 @@ footer{
     }
     #resume-div{
         padding: 4vw 6vw;
+    }
+    .my-blog{
+        padding: 4vw;
+    }
+    .blogs-div{
+        flex-wrap: wrap;
+    }
+    .blog-text-div-p1{
+        font-size: 24px;
+    }
+    a.one-blog{
+        width: 48%;
+        margin-bottom: 16px;
+    }
+    .blog-text-div{
+        padding: 24px;
     }
 }
 
