@@ -208,7 +208,7 @@ html {
 .my-blog{
     background-color: #12002e;
     color: white;
-    padding: 5vw 10vw;
+    padding: 5vw 8vw;
 }
 
 .blogs-div{
@@ -360,6 +360,22 @@ footer{
     }
     .my-image-div, .home-right-div{
         width: 80%;
+    }
+    .my-blog{
+        padding: 4vw;
+    }
+    .blogs-div{
+        flex-wrap: wrap;
+    }
+    .blog-text-div-p1{
+        font-size: 24px;
+    }
+    a.one-blog{
+        width: 48%;
+        margin-bottom: 16px;
+    }
+    .blog-text-div{
+        padding: 24px;
     }
 }
 
